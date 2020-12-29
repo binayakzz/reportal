@@ -10,6 +10,9 @@ How to install? Follow below instructions:
 3. install xampp
 4. clone the repo from the given link
 5. go to cloned repository open powershell by pressing shift+mouse right at the same time
+    i. create virtual environment(python -m venv ./venv)
+    ii. activate virtual environment(cd venv/Scripts) then(activate)
+    iii. go back to the project folder( cd ..) and again (cd ..)
 6. install requirements.txt by entering pip install -r requirements.txt, don't close powershell
 7. open xampp start apache and mysql
 8. from your browser goto localhost/phpmyadmin
