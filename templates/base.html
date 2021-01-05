@@ -16,9 +16,6 @@
     <title>Real Estate Portal {% block title %}{% endblock %}</title>
 </head>
 <body>
- <!-- Top Bar -->
-  {% include 'partials/_topbar.html' %}
-
   <!-- Navbar -->
  {% include 'partials/_navbar.html' %}
     <!-- Main Content -->
@@ -28,6 +25,8 @@
 
   <!-- Footer -->
  {% include 'partials/_footer.html' %}
+   <!-- Top Bar -->
+  {% include 'partials/_topbar.html' %}
 
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
