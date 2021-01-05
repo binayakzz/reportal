@@ -25,6 +25,10 @@ price_choices = {
 }
 
 state_choices = {
+        'DH': 'Dhaka',
+        'CH': 'Chittagong',
+        'SH': 'Sylhet',
+        'KH': 'Khulna',
         'AK': 'Alaska',
         'AL': 'Alabama',
         'AR': 'Arkansas',

@@ -28,21 +28,4 @@ def contact(request):
                           email=email, phone=phone, message=message, user_id=user_id)
         contact.save()
 
-        # Send email
-        # send_mail(
-        #   'Property Listing Inquiry',
-        #   'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info',
-        #   'binayak8997@gmail.com',
-        #   [realtor_email, 'binayakkumardey@gmail.com'],
-        #   fail_silently=False
-        # )
-
-        # subject = 'Thank you for registering to our site'
-        # message = ' it  means a world to us '
-        # email_from = settings.EMAIL_HOST_USER
-        # recipient_list = ['binayakkumardey@gmail.com']
-
-        # send_mail(subject, message, email_from, recipient_list)
-        # messages.success(request, "Your request has been submitted, a realtor will be get back to you soon")
-
         return redirect('/listings/'+listing_id)
